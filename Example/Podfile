@@ -2,10 +2,13 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'version-control-ios', :exclusive => true do
   pod "version-control-ios", :path => "../"
+  pod "AFNetworking", "~> 2.0"
 end
 
 target 'Tests', :exclusive => true do
   pod "version-control-ios", :path => "../"
+  pod "AFNetworking", "~> 2.0"
+  pod "Nocilla"
 
   pod 'Specta', :git => 'https://github.com/specta/specta.git', :tag => 'v0.3.0.beta1'
   pod 'Expecta'

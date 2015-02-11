@@ -1,28 +1,11 @@
-#
-# Be sure to run `pod lib lint version-control-ios.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "version-control-ios"
   s.version          = "0.1.0"
-  s.summary          = "A short description of version-control-ios."
-  s.description      = <<-DESC
-                       An optional longer description of version-control-ios
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/version-control-ios"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "A cocoapod library to enable version-control on your iOS app"
+  s.homepage         = "https://github.com/thegameofcode/version-control-ios"
   s.license          = 'MIT'
   s.author           = { "Luis Mesas" => "luismesas@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/version-control-ios.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/thegameofcode/version-control-ios.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
